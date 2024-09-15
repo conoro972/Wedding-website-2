@@ -1,0 +1,215 @@
+h1{
+    font-size: 100px;
+    color: #000;
+    text-align: center;
+padding: 10px; margin:100px ; line-height: 0px;
+}
+
+    h2{color:rgb(255,255,255); 
+        text-align: center;
+    font-size: 60px;}
+
+p{text-align: center;  
+    color: #000; font-weight: light; }
+h6{font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ; 
+        margin:5px;
+        padding-bottom:20px;color: #a49009; text-align: center;}
+
+h3{font-size: 50px;
+font-weight: bolder;
+text-align: center;
+color:#a49009;
+text-decoration: underline;}
+h4{text-align: center; font-size: 30px;
+    font-weight: bolder; color:#a49009 }
+body{
+    background-color: rgb(255, 255, 255);
+    background-size:100%; 
+    margin:0 }
+Head{max-height:0px; background-color: #a49009;}
+
+
+h1,h2,h3, body,p{
+        font-family: 'Playwrite CU', serif;}
+      
+fieldset{
+    border: none;
+    padding-bottom: 3em;
+    text-align: center;
+}
+    
+
+#hero-text{width: 100%;}
+    
+
+
+nav{
+    text-align: center;
+      color:rgb(255, 255, 255)
+    ;padding: 10px; height: 30px;
+      line-height: 0.1%;
+     
+    }
+
+nav ul{
+    color: black;font-family: "Arial Narrow", Arial, sans-serif;font-size: 25px;font-weight: bolder; word-spacing: 50px;}
+nav ul li {display: inline-block;
+    
+/* The important part: vertically center the items */
+align-items: center;
+ }
+
+nav ul li a {color:#a49009; text-decoration: none;}
+
+a:hover{color: #fff; transition: 0.05s;}
+          
+.centered {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+#menu{
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+#logo{
+            position: absolute;
+            top: 20%;
+            left: 12.5%;
+            transform: translate(-50%, -50%);
+
+          }
+    
+#pic2{ 
+width: 650px; height: 450px; 
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: none;
+
+}
+       
+
+  
+  .parent {
+    display: flex;
+    justify-content: space-between;
+position: relative; left: 20px;}
+
+#hero{
+    padding-top: 0;
+    background-position:center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+   width: 100%; 
+
+max-width:100% ;
+padding-left: 0;
+padding-right: 0;
+}
+  
+  button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    border-radius: 20px;
+    border-width: 2rem;
+    
+    padding: 10px 25px;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    min-width:200px;
+    min-height: 70px;
+    font-family: arial, serif; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%)}
+
+button:hover{background-color: rgba(255,255,255,0);
+color:#fff;
+border: 5px solid rgb(255, 255, 255);}
+
+iframe{width:650px; height:450px}
+
+.Schedule{position: absolute; right: 100px;; top: 20px}
+
+footer{
+    height: 400px;
+    background-color: #d2cb9b;
+    margin: 0; 
+    padding-bottom: 0; 
+    text-align: center;}
+
+input[type="email"]{max-width: 47.5%; height: 40px; text-align: center;
+ }
+input[type="submit"] {
+    background: #000000;
+    color: #fff;
+   border: none;
+    min-height: 40px;
+    max-width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background: #000000;
+        color: #fff;
+       border: none;
+        min-height: 40px;
+        max-width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+       margin-left: 47.5%;
+        }
+    .parent1 {       
+        text-align: center;
+             }
+    .name{display: inline-block;
+    min-width: 47.5%;
+padding: none;
+vertical-align: middle;
+}
+   #first-name{margin-right: -350px}
+   #last-name{margin-left: -350px}
+      label {
+        display: block;
+        margin: 0.5rem 0;
+      }
+      
+      input,
+      select {
+        margin: 10px 0 0 0;
+        width: 47.5%;
+        min-height: 2em;
+      }
+      textarea{margin: 10px 0 0 0;
+        width: 47.5%;
+        min-height: 10em}
+      input, textarea {
+        background-color: rgb(255,255,255);
+        border: 1px solid #000000;
+        color: #000000;
+      }
+      
+      .inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+      }
+      div.rsvp p{font-weight: bold;}
+      
+      .email-submit{ text-align: center;  margin-right: 32%; vertical-align: auto;}
